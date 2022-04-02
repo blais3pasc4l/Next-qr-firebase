@@ -134,11 +134,21 @@ code {
     margin: 1rem;
   }
   .nav-home{
-    color: #833ac7;
+    position: relative;
+    padding: 1rem;
+    background-color: #833ac7;
+    color: #fff;
     font-size: 1.2em!important;
     font-weight: 400;
+    transition: 0.5s;
 
   }
+  .nav-home:hover{
+    font-weight: 700;
+      color: #000;
+  }
+
+  
   .margenes-colector{
     margin-top:60%;
     margin-left:10%;
@@ -155,5 +165,30 @@ code {
   .fake-textarea:empty::before {
     position: absolute;
     content: "Write here...";
+  }
+  .botones{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+  }
+
+  .botones:hover{
+    font-weight: 700;
+    background-color: #000;
+    color: #833ac7;
+
   }
 `;

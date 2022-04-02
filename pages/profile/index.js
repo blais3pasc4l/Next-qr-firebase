@@ -13,7 +13,6 @@ export default function Home() {
 
   return (
     <StyleForm>
-      <br />
       <ul>
         <li onClick={logout} className="text-center nav-home">
           Salir

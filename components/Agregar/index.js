@@ -69,9 +69,12 @@ function Agregar() {
                         <Grid item xs={4}>
                         </Grid>
                         <Grid item xs={2}>
-                        <Fab onClick={downloadQR} className="margenes-colector" >
-                        <GetApp/>
-                        </Fab>
+                        
+                        <button onClick={downloadQR} className="fondo-color-signup botones 
+                        ">
+                            descargar 📂
+                        </button>
+                        
                         </Grid>
                     </Grid> :
                     ''

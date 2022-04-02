@@ -49,13 +49,13 @@ function Login() {
   return (
     <StyleForm>
       <Notification show={ShowNotification} message={Message} />
-      <br/>
+      
       <nav className="text-center nav-home">
         {[
           ['Home', '/'],
 
         ].map(([title, url]) => (
-          <Link href={url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">{title}</Link>
+          <Link href={url} className="linkin">{title}</Link>
         ))}
       </nav>
       <div  className="margenes-laterales">

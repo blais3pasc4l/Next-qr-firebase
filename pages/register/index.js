@@ -64,7 +64,7 @@ function Register() {
   return (
     <StyleForm>
       <Notification show={ShowNotification} message={Message} />
-      <br />
+      
       <nav className="text-center nav-home">
         {[
           ['Home', '/'],

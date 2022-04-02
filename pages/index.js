@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export default function Home(message) {
   return (
     <StyleForm>
-      <br/>
+      
       <ul>
       <li className="text-center nav-home">
         <Link href="/login">Inicia sesión</Link>
